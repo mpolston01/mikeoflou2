@@ -1,0 +1,136 @@
+body {
+    background-color: bisque;
+}
+
+#button{
+	float:right;
+}
+
+table,th, td
+{
+	border: 2px solid black;
+	text-align:center;
+	font-size:20px;
+	font-weight:bold;
+	color: black;
+    margin: auto;
+}
+th{
+	background-color:gold;
+}
+tr:nth-child(even){
+	background-color:lightblue;
+	color: black;
+	font-weight:bold;
+}
+tr:nth-child(odd){
+	font-weight:bold;
+}
+
+
+h1{
+    text-align:center;
+}
+h2{
+    text-align:right;
+	font-size:larger;
+}
+
+ .dropbtn {
+    background-color: lightgreen;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lightgreen;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-weight: bold;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover
+{
+    background-color: lightgreen;
+    color:black;
+}
+
+.dropdown:hover .dropdown-content
+{
+    display: block;
+}
+
+.dropdown:hover .dropbtn
+{
+    
+    background-color: lightgreen;
+    color: black;
+}
+
+.hoverTable
+{
+	width:100%; 
+	border-collapse:collapse; 
+}
+
+.hoverTable td
+{ 
+	padding:7px; border:#4e95f4 1px solid;
+}
+	
+.hoverTable tr
+{
+	background:black;
+    color:yellow;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.hoverTable tr:hover
+{
+    background: blue;
+}
+
+.hoverTable th
+{
+   background-color: black;
+}
+a{
+    font-weight: bold;
+    color:darkblue;
+}
+
+.balance{
+	float:right;
+	overflow: auto;
+	width 33%;
+	border: 3px solid lightgreen;
+	padding: 10px;
+	background-color:lightblue;
+	
+}
+.money{
+	font-weight: bold; 
+	background-color: lightgreen;
+    color: black; 
+    font-size: large;
+}
